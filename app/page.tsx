@@ -1,13 +1,13 @@
-import { playwriteGBS, newsreader } from './fonts/fonts';
+import { playwriteGBS } from './fonts/fonts';
 
 export default function HomePage() {
   return (
     <section style={heroSection}>
-        <h1 style={{ ...heroTitleStyle, fontFamily: playwriteGBS.style.fontFamily }}>Hey hey</h1>
-      <h4 style={{ ...largerSubtitleStyle, fontFamily: playwriteGBS.style.fontFamily }}>I'm Matthew Wang</h4>
+      <h1 style={{ ...heroTitleStyle, fontFamily: playwriteGBS.style.fontFamily }}>Hey hey</h1>
+      <h4 style={{ ...largerSubtitleStyle, fontFamily: playwriteGBS.style.fontFamily }}>I&apos;m Matthew Wang</h4> {/* Escaped single quote */}
       <p style={largerTextStyle}>
-        I'm currently a computer science major at Arizona State University. I enjoy writing clean, 
-        elegant code to create things that help improve people's lives, little by little. <br /><br />
+        I&apos;m currently a computer science major at Arizona State University. I enjoy writing clean, {/* Escaped single quote */}
+        elegant code to create things that help improve people&apos;s lives, little by little. <br /><br /> {/* Escaped single quote */}
         I also love practicing kung fu, playing the piano, modding mechanical keyboards, and exploring new boba shops.
       </p>
     </section>
