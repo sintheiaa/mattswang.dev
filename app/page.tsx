@@ -1,13 +1,13 @@
-import { playwriteGBS, newsreader } from './fonts/fonts';
+import { playwriteGBS } from './fonts/fonts'; // Removed unused 'newsreader'
 
 export default function HomePage() {
   return (
     <section style={heroSection}>
-        <h1 style={{ ...heroTitleStyle, fontFamily: playwriteGBS.style.fontFamily }}>Hey hey</h1>
-      <h4 style={{ ...largerSubtitleStyle, fontFamily: playwriteGBS.style.fontFamily }}>I'm Matthew Wang</h4>
+      <h1 style={{ ...heroTitleStyle, fontFamily: playwriteGBS.style.fontFamily }}>Hey hey</h1>
+      <h4 style={{ ...largerSubtitleStyle, fontFamily: playwriteGBS.style.fontFamily }}>I&apos;m Matthew Wang</h4> {/* Escaped single quote */}
       <p style={largerTextStyle}>
-        I'm currently a computer science major at Arizona State University. I enjoy writing clean, 
-        elegant code to create things that help improve people's lives, little by little. <br /><br />
+        I&apos;m currently a computer science major at Arizona State University. I enjoy writing clean, {/* Escaped single quote */}
+        elegant code to create things that help improve people&apos;s lives, little by little. <br /><br /> {/* Escaped single quote */}
         I also love practicing kung fu, playing the piano, modding mechanical keyboards, and exploring new boba shops.
       </p>
     </section>
@@ -16,7 +16,7 @@ export default function HomePage() {
 
 const heroSection: React.CSSProperties = {
   maxWidth: '900px',
-  margin: '0 4rem 6rem auto',// Aligns to the lower right
+  margin: '0 4rem 6rem auto', // Aligns to the lower right
   textAlign: 'right',
   position: 'absolute',
   bottom: '4.5rem',
@@ -33,13 +33,10 @@ const heroTitleStyle: React.CSSProperties = {
 const largerSubtitleStyle: React.CSSProperties = {
   fontSize: '2.75rem',
   fontWeight: 'normal',
-  marginBottom: '1.5rem',
 };
 
 const largerTextStyle: React.CSSProperties = {
-  fontSize: '1.75rem',
+  fontSize: '2rem',
   lineHeight: '1.8',
-  fontWeight: 500,
-  maxWidth: '700px',
-  textAlign: 'right',
+  fontWeight: '500',
 };
