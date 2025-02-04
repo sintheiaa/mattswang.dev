@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  basePath: "/https://github.com/sintheiaa/mattswang.dev", // Replace with your GitHub repo name
-  trailingSlash: true,
+  trailingSlash: true, // Optional: Keeps URLs clean
 };
 
 module.exports = nextConfig;
