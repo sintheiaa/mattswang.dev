@@ -16,7 +16,7 @@ export default function Navbar() {
             <a style={linkStyle}>Projects</a>
           </Link>
           <div style={spacer} /> {/* Adds extra spacing */}
-          <Link href="/about" passHref legacyBehavior>
+          <Link href="/blog" passHref legacyBehavior>
             <a style={linkStyle}>Blog</a>
           </Link>
         </div>
