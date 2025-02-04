@@ -9,7 +9,7 @@ export default function BlogPage() {
       </p>
 
       {/* Short Story Section */}
-      <h2 style={headingStyle}>The Final Swing</h2>
+      
 
       <p style={shortStoryParagraphStyle}>
         Death came for me on a Tuesday morning. 
@@ -594,14 +594,6 @@ export default function BlogPage() {
 
       <p style={shortStoryParagraphStyle}>
         “Heh. Hope the pay is good, at least.”
-      </p>
-
-      <p style={shortStoryParagraphStyle}>
-        <em>Eventually. You will be starting off as an unpaid intern for the first five decades–</em>
-      </p>
-
-      <p style={shortStoryParagraphStyle}>
-        “Oh fuck right off.”
       </p>
 
     </section>
