@@ -36,7 +36,7 @@ const largerSubtitleStyle: React.CSSProperties = {
 };
 
 const largerTextStyle: React.CSSProperties = {
-  fontSize: '2rem',
+  fontSize: '1.75rem',
   lineHeight: '1.8',
   fontWeight: '500',
 };
