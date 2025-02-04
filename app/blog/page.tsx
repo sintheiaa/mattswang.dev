@@ -4,14 +4,20 @@ export default function BlogPage() {
   return (
     <section style={sectionStyle}>
       <h1 style={headingStyle}>Personal Musings</h1>
-      <p style={paragraphStyle}>
-        Title: One Last Cut (oneshot short story, to be expanded on (hopefully)))
+      
+      <p style={{
+      ...paragraphStyle, 
+      textAlign: 'center', 
+      fontWeight: 'bold'
+      }}>
+      Title: One Last Cut (oneshot short story, to be expanded on (hopefully))
       </p>
 
       {/* Short Story Section */}
       
 
       <p style={shortStoryParagraphStyle}>
+        
         Death came for me on a Tuesday morning. 
         The air chilled to a freezing temperature as dense clouds of grey mist rolled in from nowhere and everywhere. 
         The world seemed to darken by several shades, the colors becoming dull and muted, and an otherworldly, decidedly inhuman presence seeped into the air. 
