@@ -31,7 +31,7 @@ export default function ProjectsPage() {
 
 const sectionStyle: React.CSSProperties = {
   maxWidth: '900px',
-  margin: '3rem auto', // Moves the section lower
+  margin: '2rem auto', // Moves the section lower
 };
 
 const headingStyle: React.CSSProperties = {

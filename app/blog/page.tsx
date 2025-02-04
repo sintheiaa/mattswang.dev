@@ -18,7 +18,12 @@ export default function BlogPage() {
 
       <p style={shortStoryParagraphStyle}>
         
+      </p>
+      <p style={shortStoryParagraphStyle}>
         Death came for me on a Tuesday morning. 
+      </p>
+
+      <p style={shortStoryParagraphStyle}>
         The air chilled to a freezing temperature as dense clouds of grey mist rolled in from nowhere and everywhere. 
         The world seemed to darken by several shades, the colors becoming dull and muted, and an otherworldly, decidedly inhuman presence seeped into the air. 
         It was impossible to describe for it was a sensation that affected not the body but the soul itself, some primal part of my mind instinctively registering the fundamental wrongness and screaming at me to run, to hide, to freeze, to die.
@@ -609,7 +614,7 @@ export default function BlogPage() {
 
 const sectionStyle: React.CSSProperties = {
   maxWidth: '900px',
-  margin: '3rem auto',
+  margin: '2rem auto',
 };
 
 const headingStyle: React.CSSProperties = {
