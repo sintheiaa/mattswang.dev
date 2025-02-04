@@ -6,8 +6,8 @@ export default function HomePage() {
       <h1 style={{ ...heroTitleStyle, fontFamily: playwriteGBS.style.fontFamily }}>Hey hey</h1>
       <h4 style={{ ...largerSubtitleStyle, fontFamily: playwriteGBS.style.fontFamily }}>I&apos;m Matthew Wang</h4> {/* Escaped single quote */}
       <p style={largerTextStyle}>
-        I&apos;m currently a computer science major at Arizona State University. I enjoy writing clean, {/* Escaped single quote */}
-        elegant code to create things that help improve people&apos;s lives, little by little. <br /><br /> {/* Escaped single quote */}
+        <br />I&apos;m currently a computer science major at Arizona State University. I enjoy writing clean, {/* Escaped single quote */}
+        elegant code to create things that help brighten people&apos;s lives.<br /><br /> {/* Escaped single quote */}
         I also love practicing kung fu, playing the piano, modding mechanical keyboards, and exploring new boba shops.<br /><br />Thanks for stopping by!
       </p>
     </section>
@@ -16,10 +16,10 @@ export default function HomePage() {
 
 const heroSection: React.CSSProperties = {
   maxWidth: '900px',
-  margin: '0 4rem 6rem auto', // Aligns to the lower right
+  margin: '0 3rem 3rem auto', // Aligns to the lower right
   textAlign: 'right',
   position: 'absolute',
-  bottom: '4.5rem',
+  bottom: '1rem',
   right: '2rem',
 };
 
