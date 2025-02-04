@@ -8,7 +8,7 @@ export default function HomePage() {
       <p style={largerTextStyle}>
         I&apos;m currently a computer science major at Arizona State University. I enjoy writing clean, {/* Escaped single quote */}
         elegant code to create things that help improve people&apos;s lives, little by little. <br /><br /> {/* Escaped single quote */}
-        I also love practicing kung fu, playing the piano, modding mechanical keyboards, and exploring new boba shops.
+        I also love practicing kung fu, playing the piano, modding mechanical keyboards, and exploring new boba shops.<br /><br />Thanks for stopping by!
       </p>
     </section>
   );
