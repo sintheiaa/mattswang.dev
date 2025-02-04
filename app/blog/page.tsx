@@ -1,10 +1,9 @@
-export default function AboutPage() {
+export default function BlogPage() {
   return (
     <section style={sectionStyle}>
       <h1 style={headingStyle}>Personal Musings</h1>
       <p style={paragraphStyle}>
         does this work
-        
       </p>
     </section>
   );
@@ -12,7 +11,7 @@ export default function AboutPage() {
 
 const sectionStyle: React.CSSProperties = {
   maxWidth: '900px',
-  margin: '4rem auto', // Moves it slightly lower
+  margin: '3rem auto', // Moves it slightly lower
 };
 
 const headingStyle: React.CSSProperties = {
